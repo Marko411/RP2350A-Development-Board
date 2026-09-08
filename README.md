@@ -1,4 +1,6 @@
 # RP2350A Development Board
+## About The Repository
+- The PDF is the schematic, and the Gerber files can be opened in most Gerber viewers to see the fabrication outputs for the board.
 ## Design Choices
 - Given the space and routing complexity necessary, a 2-layer board was sufficient.
 - The board interfaces the RP2350A microcontroller with the W25Q128JVS 16 MB external flash and the ABM8-272-T3 12MHz oscillator. Respectively, these design choices are to provide flash storage for the RP2350A which has no built-in flash, and to help with precise timing for interfaces like USB. These parts of the design are drawn from the "Hardware Design with RP2350" datasheet by Raspberry Pi.
